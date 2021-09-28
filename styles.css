@@ -1,5 +1,4 @@
-body,
-html {
+body,html {
   width: 100%;
   height: 100%;
 }
@@ -10,6 +9,7 @@ hr.divider {
   border-color: #f4623a;
 }
 
+
 hr.light {
   border-color: #fff;
 }
@@ -17,6 +17,8 @@ hr.light {
 .btn {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
 
 .btn-xl {
   padding: 1.25rem 2.25rem;
@@ -190,12 +192,15 @@ a {
 }
 
 .pic1 {
-  background: linear-gradient(to bottom, rgba(89, 89, 89, 0.8) 0%, rgba(89, 89, 89, 0.8) 100%), url("https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80");
+  background: linear-gradient(to bottom, rgba(89, 89, 89, 0.8) 0%, rgba(89, 89, 89, 0.8) 100%), url("p2.jpg");
   letter-spacing: 0.7em;
+
 }
 
+
 .pic2 {
-  background: linear-gradient(to bottom, rgba(89, 89, 89, 0.8) 0%, rgba(89, 89, 89, 0.8) 100%), url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/BXJT8TRDeiymbx54w/videoblocks-matrix-background-programming-coding-hacker-concept_hi0pfyhxv_thumbnail-180_01.jpg");
+  
+  background: linear-gradient(to bottom, rgba(89, 89, 89, 0.8) 0%, rgba(89, 89, 89, 0.8) 100%), url("p1.jpg");
   letter-spacing: 0.7em;
 }
 
@@ -209,23 +214,7 @@ a {
   letter-spacing: 0.4em;
 }
 
-.pic5 {
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8imNyd_nq8rNK8Ngp_04-MTr5pFUtF-lyoQ&usqp=CAU");
-  letter-spacing: 0.4em;
-}
-.pic6 {
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://th.bing.com/th/id/OIP.nvY9I0RDx_eUz83dnM-8MAHaE8?pid=ImgDet&rs=1");
-  letter-spacing: 0.4em;
-}
-.pic7 {
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://prod-discovery.edx-cdn.org/media/programs/card_images/e0de6882-c5d1-43f3-99e0-17e386489dca-9c3bda2df48f.jpg");
-  letter-spacing: 0.4em;
-}
 
-.pic8 {
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://www.tacoma.uw.edu/sites/default/files/styles/node_gallery_display/public/node_gallery/HomeCSS.png?itok=dTnNbY9z");
-  letter-spacing: 0.4em;
-}
 
 .test {
   /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"); */
@@ -243,6 +232,8 @@ a {
 .test h2 {
   transition: all 0.4s;
 }
+
+
 
 .hidden1 {
   display: none;

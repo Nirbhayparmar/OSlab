@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>OS Scheduling Project</title>
+    <link rel="shortest icon" type="image" href="slack.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link
@@ -22,36 +23,43 @@
     <link rel="stylesheet" href="assets/css/table.css" />
     <link rel="stylesheet" href="assets/css/avg.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <style>
-      body {
-         background-image: url("p1.jpg");
-         background-color: #cccccc;
-         background-size: cover;
-         }
-     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    
   </head>
+  <style>
+    body {
+       background-image: url("p3.jpg");
+       background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+   </style>
 
 <body >
     
-    
+
+
+
  
-    <nav class="navbar navbar-dark navbar-expand-md navigation-clean">
+<nav class="navbar navbar-dark navbar-expand-md navigation-clean fixed-top" id="mainNav">
     
       <h2>Process Scheduling Algorithms</h2>
-      <div class="container">
-        <button
-          data-toggle="collapse"
-          class="navbar-toggler"
-          data-target="#navcol-1"
-        >
-          <span class="sr-only">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="container opp">
+        
+ 
         <div class="collapse navbar-collapse" id="navcol-1">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item" role="presentation">
-              <a class="navbar-brand pull-sm-right m-r-0" href="https://github.com/anthru-expo/OSlab"
-                ><i class="fa fa-github">  Github </i></a>
+              <a class="navbar-brand pull-sm-right m-r-0" href="https://github.com/anthru-expo/OSlab">
+                  </a>
+                  <i class="fa fa-github">  Github </i></a>
+                 
+                 
             </li>
           </ul>
         </div>
@@ -63,6 +71,11 @@
     <form>
       
     <h4 class="karde text-uppercase text-white font-weight-bold " style="display: block; text-align: center;">VARIOUS SCHEDULING ALGORITHMS</h4>
+
+  <section class="dalnapada">
+
+    
+
     <div id="portfolio">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
@@ -87,10 +100,14 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center test pic2">
                     <div>
+
+                      
+
+
                         <h2 class="text-uppercase text-white font-weight-bold mb-0">SJF</h2>
                         <div class="hidden1" id="show">
                           
-                            
+                          
                             <div class="container">
                                 <p class="text-white">As the name suggests,the process with the shortest execution time
                                     should be selected for execution next.</p>
@@ -108,11 +125,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center test pic3">
+
+                  
                     <div>
                         <h2 class="text-uppercase text-white font-weight-bold mb-0">ROUND-ROBIN</h2>
                         <div class="hidden1" id="show">
-                            <div class="container">
-                                <p class="text-white">Round robin is the oldest, simplest scheduling algorithm.</p>
+                            <div class="container" >
+                                <p class="text-white" >Round robin is the oldest, simplest scheduling algorithm.</p>
                             </div>
                             
                             <input
@@ -150,10 +169,9 @@
         </div>
     </div>
 
+  </section>
 
-
-
-
+      
       <div>
         <div class="op">
         <strong class="time">Enter Arrival Time:</strong>

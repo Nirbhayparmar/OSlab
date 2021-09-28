@@ -132,7 +132,8 @@
 }
 
 .navigation-clean.navbar-dark {
-  background-color: #0a37a1;
+  
+  background-color: rgba(0, 252, 231, 0.137);
   color: #fff;
 }
 

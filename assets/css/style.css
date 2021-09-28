@@ -3,13 +3,19 @@ body {
   color: rgb(0, 0, 0);
   margin: 0px;
   padding: 0m;
-  
+  font-family: 'Roboto Mono', monospace;
   margin-bottom: 0;
 
  
 }
+
+
+
+h2{
+  font-family: 'bold ''Chakra Petch', sans-serif;
+}
 .op{
-background-color: rgb(7, 51, 102);
+background-color: rgba(72, 158, 2, 0.459);
 padding: 25px;
 
 
@@ -17,10 +23,18 @@ padding: 25px;
 
 
 .test{
-  background-color: rgb(7, 51, 102);
+  background-image: url("p2.jpg");
+ 
   padding: 50px;
   margin-bottom:50px ;
 }
+
+.dalnapada{
+  margin: 50px;
+  background-color: rgba(31, 8, 70, 0.486);
+  position: flex;
+}
+
 #radio {
   display: block;
   font-size: large;
@@ -29,9 +43,12 @@ padding: 25px;
 }
 
 
+
+
 .karde{
-  margin-top: 25px;
+  margin-top: 30px;
   margin-bottom: 25px;
+  padding-top: 130px;
 
 }
 form {
@@ -82,7 +99,7 @@ table {
   padding: 50px;
 }
 .time {
-  color: rgb(255, 0, 0);
+  color: rgb(0, 247, 255);
 }
 .btn {
   border-radius: 0%;
@@ -97,3 +114,4 @@ table {
   background-color: rgb(255, 255, 0);
   border-color: rgb(255, 255, 0);
 }
+
