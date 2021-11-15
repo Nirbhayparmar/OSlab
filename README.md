@@ -7,6 +7,9 @@ Steps to install the project:
 3.	Open the index.html file using any browser.
 4.	After opening refer to how to use section to understand how to use the website to implement scheduling algorithms.
 
+![image](https://user-images.githubusercontent.com/62185337/141759928-bd7167c3-46cd-436d-9743-e3fe3c1be8a0.png)
+
+
 # HOW TO USE THE PROJECT
 Steps to use the website:
 1.	First add the arrival time and burst time for different processes you want to consider for the implementation of the algorithm by entering arrival time, burst time and then clicking on ADD A ROW BUTTON. (Note: Enter the processes sorted according to the arrival time)
