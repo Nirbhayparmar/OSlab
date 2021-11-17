@@ -17,7 +17,7 @@ Steps to use the website:
 3.	Then select the algorithm according to which you want schedule the processes which you have added to the table by selecting the particular radio button. (Note: For Round Robin you also have to enter the time quanta in the respective text field and for Priority scheduling enter the priority for each process in the designated column. Lower the priority prior it will be scheduled).
 4.	After adding all processes and selecting the scheduling algorithm click on execute button which will find turn around time, response time, completion time and waiting time for all processes. Also, line graphs for the response time, completion time and waiting will be shown with Gantt Chart.
 
-- to use live project,click this link-[https://romantic-minsky-298d7f.netlify.app/](https://romantic-minsky-298d7f.netlify.app/)
+- to use live project, click this link-[https://romantic-minsky-298d7f.netlify.app/](https://romantic-minsky-298d7f.netlify.app/)
 
 # HOW TO EDIT THE PROJECT
 Steps to edit the project:
