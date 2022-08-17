@@ -17,7 +17,7 @@ Steps to use the website:
 3.	Then select the algorithm according to which you want schedule the processes which you have added to the table by selecting the particular radio button. (Note: For Round Robin you also have to enter the time quanta in the respective text field and for Priority scheduling enter the priority for each process in the designated column. Lower the priority prior it will be scheduled).
 4.	After adding all processes and selecting the scheduling algorithm click on execute button which will find turn around time, response time, completion time and waiting time for all processes. Also, line graphs for the response time, completion time and waiting will be shown with Gantt Chart.
 
-- to use live project, click this [link](https://github.com/Nirbhayparmar/OSlab)
+- to use live project, click this [https://nirbhayparmar.github.io/OSlab/](https://nirbhayparmar.github.io/OSlab/)
 
 # HOW TO EDIT THE PROJECT
 Steps to edit the project:
